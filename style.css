@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Playfair+Display&family=Poppins&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+font-family: 'Playfair Display', serif;
+
+}
+body{
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #242B2E;
+}
+.calculator{
+    /* border:1px solid #ffff; */
+    background-color: red;
+    padding:10px 20px;
+    background-color: transparent;
+    border:1px solid white;
+    box-shadow:  -5px -5px 10px  #ffffff;
+}
+.calculator input{
+    width:100%;
+    border:none;
+    outline: none;
+    background-color: transparent;
+    font-size: 25px;
+    padding:20px;
+   margin: 10px 0px 20px 0px;
+   text-align: right;
+   color:#ffffff;
+}
+input::placeholder{
+    color: #ffffff;
+    font-size: 25px;
+    
+}
+button{
+    width:55px;
+    height:55px;
+    margin:15px;
+    border-radius: 50%;
+    font-size: 20px;
+    box-shadow:  -2px -2px 3px #ffffff;
+    background-color: transparent;
+    border: none;
+    color:#ffffff;
+    font-weight: 600;
+}
+.equalbtn{
+    background-color: orange;
+}
+.operator{
+    background-color: green;
+}
